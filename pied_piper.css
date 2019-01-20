@@ -1,0 +1,45 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	background: #007765;
+	height: 84px;
+	width: 1219px;
+}
+
+a {
+	text-decoration: none; /*Убираем подчеркивание ссылок*/
+}
+
+.logo {
+	display: inline-block;
+	margin: 20px 0px 20px 55px; /*Центрирование картинки лого */
+}
+
+table {
+	border-collapse: collapse; /* Убрать двойные границы между ячейками */
+	width: auto;
+}
+
+table a {
+	color: white; /* Цвет текста в табличке - белый */
+	height: 29px;
+}
+
+td {
+	padding: 1px 5px; /* Отступы между ячейками в таблице */
+	border: 2px solid white; /* Толщина и цвет вертикальных линий */
+}
+
+.table_header {
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
