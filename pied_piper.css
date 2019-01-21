@@ -4,6 +4,7 @@ html {
 
 body {
 	margin: 0;
+	width: 1219px;
 }
 
 header {
@@ -42,4 +43,31 @@ td {
 	float: right;
 	margin-top: 30px;
 	margin-right: 50px;
+}
+
+.content {
+	position: relative;
+	border: 2px solid yellow;
+	width: inherit;
+	display: block;
+	padding: 0px 55px;
+}
+
+.jumbotron {
+	border: 2px solid green;
+	display: block;
+	width: inherit;
+	height: 403px;
+/*	background: url(pied_piper_img/image-8.png);
+*/}
+
+/*.jumbotron h1 {
+	text-align: center;
+}*/
+p {
+	color: black;
+}
+
+.clear {
+	display: block;
 }
