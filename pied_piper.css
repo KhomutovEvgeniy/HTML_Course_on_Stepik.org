@@ -4,14 +4,20 @@ html {
 
 body {
 	margin: 0;
-	width: 1219px;
+	width: 100%;
 }
 
 header {
-	position: fixed;
+	/*ЗАДАТЬ ПОЗИЦИОНИРОВАННИЕ БЛОКОВ В ШАПКЕ*/
+/*	position: ;	*/
 	background: #007765;
 	height: 84px;
 	width: 1219px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border: 1px solid #007765;
 }
 
 a {
@@ -19,6 +25,7 @@ a {
 }
 
 .logo {
+	position: fixed;
 	display: inline-block;
 	margin: 20px 0px 20px 55px; /*Центрирование картинки лого */
 }
@@ -31,6 +38,7 @@ table {
 table a {
 	color: white; /* Цвет текста в табличке - белый */
 	height: 29px;
+	font-size: 1.2rem;
 }
 
 td {
@@ -39,35 +47,48 @@ td {
 }
 
 .table_header {
-	display: inline-block;
+/*	position: fixed;
+*/	display: inline-block;
 	float: right;
 	margin-top: 30px;
-	margin-right: 50px;
+	margin-right: 55px;
 }
 
 .content {
-	position: relative;
-	border: 2px solid yellow;
-	width: inherit;
+	width: 1219px;
 	display: block;
-	padding: 0px 55px;
+	/*Мб padding-top: 84px?*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: auto;
+
 }
 
 .jumbotron {
-	border: 2px solid green;
 	display: block;
-	width: inherit;
+	box-sizing: border-box;
 	height: 403px;
-/*	background: url(pied_piper_img/image-8.png);
-*/}
-
-/*.jumbotron h1 {
+	line-height: 403px;
+	background: url(pied_piper_img/image-8.png);
+	color: white;
+	font-size: 5rem;
 	text-align: center;
-}*/
-p {
-	color: black;
 }
 
-.clear {
-	display: block;
+.the-problem {
+	background: #EEEEEE;
+	height: 719px;
+	vertical-align: center;
 }
+a.the-problem-ref {
+	color: #007765;
+	font-size: 5rem;
+}
+
+p.the-problem {
+	color: black;
+	font-size: 2.3rem;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
