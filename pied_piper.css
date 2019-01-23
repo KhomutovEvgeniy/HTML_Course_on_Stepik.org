@@ -9,15 +9,19 @@ body {
 
 header {
 	/*ЗАДАТЬ ПОЗИЦИОНИРОВАННИЕ БЛОКОВ В ШАПКЕ*/
-/*	position: ;	*/
+	position: fixed;
 	background: #007765;
 	height: 84px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.header-static {
+	display: block;
+	box-sizing: border-box;
 	width: 1219px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	border: 1px solid #007765;
+	padding: 0px 55px 0px 55px;
+	margin: auto;
 }
 
 a {
@@ -25,9 +29,10 @@ a {
 }
 
 .logo {
-	position: fixed;
 	display: inline-block;
-	margin: 20px 0px 20px 55px; /*Центрирование картинки лого */
+	vertical-align: middle;
+	margin-top: 20px;
+	/*margin: 20px 0px 20px 55px; *//*Центрирование картинки лого */
 }
 
 table {
@@ -47,16 +52,17 @@ td {
 }
 
 .table_header {
-/*	position: fixed;
-*/	display: inline-block;
+	display: inline-block;
 	float: right;
 	margin-top: 30px;
 	margin-right: 55px;
 }
 
 .content {
-	width: 1219px;
 	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0px;
 	/*Мб padding-top: 84px?*/
 	/*margin-left: auto;
 	margin-right: auto;*/
@@ -69,26 +75,117 @@ td {
 	box-sizing: border-box;
 	height: 403px;
 	line-height: 403px;
-	background: url(pied_piper_img/image-8.png);
-	color: white;
-	font-size: 5rem;
+	background: url(pied_piper_img/image.png);
 	text-align: center;
 }
 
+.piper-net-is-here {
+	box-sizing: border-box;
+	width: 1219px;
+	color: white;
+	font-size: 5rem;
+}
 .the-problem {
+	display: block;
 	background: #EEEEEE;
 	height: 719px;
-	vertical-align: center;
+	text-align: center;
+	padding-top: 55px;
 }
-a.the-problem-ref {
+
+.the-problem-content {
+	box-sizing: border-box;
+	width: 1219px;
+	margin: auto;
+}
+
+.the-problem-ref {
+	display: block;
+	text-align: center;
 	color: #007765;
 	font-size: 5rem;
 }
 
-p.the-problem {
+.the-problem p {
+	text-align: left;
 	color: black;
 	font-size: 2.3rem;
 	padding-left: 55px;
 	padding-right: 55px;
 }
 
+.hero {
+	display: block;
+	background: url(pied_piper_img/image-1.png);
+	height: 403px;
+	text-align: center;
+}
+
+.hero-paragraph {
+	display: block;
+	height: inherit;
+	margin: auto;
+	width: 55rem;
+	font-size: 3.4rem;
+	color: white;
+	padding-top: 100px;
+}
+
+.ppc {
+	display: block;
+	background: #FFFFFF;
+	height: 604px;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.ppc-content {
+	box-sizing: border-box;
+	width: 1219px;
+	margin: auto;
+}
+
+.ppc-ref {
+	display: block;
+	text-align: center;
+	color: #007765;
+	font-size: 5rem;
+}
+
+.ppc p {
+	text-align: left;
+	color: black;
+	font-size: 2.3rem;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.ppc-logo {
+	float: left;
+}
+
+.the-team {
+	display: block;
+	background: #EEEEEE;
+	height: 845px;
+	text-align: center;
+	padding-top: 44px;
+}
+.the-team-content {
+	box-sizing: border-box;
+	width: 1219px;
+	margin: auto;
+}
+
+.the-team-ref {
+	display: block;
+	text-align: center;
+	color: #007765;
+	font-size: 5rem;
+}
+
+.richard-hendricks, 
+.dinesh-chugtai, 
+.bertram-gilfoyle {
+	display: inline-block;
+}
